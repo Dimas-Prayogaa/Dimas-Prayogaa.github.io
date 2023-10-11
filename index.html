@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimas Prayoga</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #edf6fa;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            border: 5px solid #33b3da;
+        }
+
+        .header img {
+            max-width: 100%;
+            max-height: 461px;
+            width: auto;
+            height: auto;
+        }
+        nav {
+            background-color: #33b3da;
+            color: #fff;
+            padding: 15px;
+            text-align: left;
+        }
+        .navbar-btn {
+        margin-right: 10px; 
+        }
+
+        .search-btn {
+        background-color: blue; 
+        color: white; 
+        }
+        .search-btn:hover {
+        background-color: #0255f0;
+        }
+        .container {
+        background-color: #e0f6fd; 
+        box-shadow: 0 4px 8px rgba(0, 99, 248, 0.925);
+        border-radius: 40px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            font-weight: bold;
+            background-color: #0255f0;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #2f76fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="img/home.jpg" alt="Header Image">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <a href="#" class="btn btn-primary navbar-btn">Home</a>
+                    <a href="artikel.html" class="btn btn-primary navbar-btn">About Me</a>
+                    <a href="buku_tamu.html" class="btn btn-primary navbar-btn">Buku Tamu</a>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container shadow p-lg-4 pt-3 pb-3 mt-lg-4 mb-lg-4 bg-body-tertiary rounded">
+        <div class="card mt-4 p-4">
+                    <h1 class="text-center mb-4">Informasi Tentang JTIK</h1>
+                    <p>Jurusan Teknik Informatika dan Komputer merupakan salah satu jurusan yang ada pada Universitas Negeri
+                        Makassar dengan peminat yang sangat tinggi. Jurusan ini memiliki dua program studi yaitu Program Studi
+                        Pendidikan Teknik Informatika dan Komputer (PTIK) dan Program Studi Teknik Komputer (TEKOM). Kampus JTIK FT
+                        UNM berada dalam kompleks Fakultas Teknik Universitas Negeri Makassar berlokasi di Kampus UNM Parangtambung.
+                        JTIK merupakan salah satu jurusan yang memiliki mahasiswa terbanyak dalam lingkup Fakultas Teknik UNM.
+                    </p>
+                </div>
+                <div class="card mt-4 p-4">
+                    <h1 class="text-center mb-4">Pendidikan dan Pelatihan</h1>
+                    <ul class="list-group">
+                        <li class="list-group-item">Sekolah Dasar - SD Negeri 76 Tengapadange (Pramuka)</li>
+                        <li class="list-group-item">Sekolah Menengah Pertama - Mts DDI Tengapadange (Paskibraka)</li>
+                        <li class="list-group-item">Sekolah Menengah Atas - MAN 1 Soppeng (Bantara Dan PMR)</li>
+                        <li class="list-group-item">Perguruan Tinggi - Universitas Negeri Makassar (Jurusan Teknik Informatika Dan Komputer)</li>
+                    </ul>
+                </div>
+                <div class="card mt-4 p-4">
+                    <h1 class="text-center mb-4">Jadwal Kuliah</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Hari</th>
+                                <th scope="col">Jam</th>
+                                <th scope="col">Ruangan</th>
+                                <th scope="col">Mata Kuliah</th>
+                                <th scope="col">Dosen Pengampuh</th>
+                                <th scope="col">Dosen Mitra</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="1">Senin</td>
+                                <td>10:50 - 12:40</td>
+                                <td>Lab Jaringan</td>
+                                <td>Jaringan komputer</td>
+                                <td>Dr. Eng. Ir. Jumadi M Parenreng, M.Kom., IPM.</td>
+                                <td>Aulyah Zakilah Ifani, M.Kom.</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Selasa</td>
+                                <td>07:30 - 10:05</td>
+                                <td>Teknol 1F</td>
+                                <td>Kecerdasan Buatan</td>
+                                <td>Dr. Iwan Suhardi, S.T., M.T.</td>
+                                <td>Dyah Darma Andayani, S.T., M.Tel.Eng</td>
+                            </tr>
+                            <tr>
+                                <td>13:10 - 14:50</td>
+                                <td>Teknol 1D</td>
+                                <td>Profesi Kependidikan</td>
+                                <td>Prof. Dr. Ir. Riana Tangkin Mangesa, MT. </td>
+                                <td>Dwi Rezky Anandari Sulaiman, S.Psi., M.Si. </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Rabu</td>
+                                <td>07:30  - 10:05</td>
+                                <td>Lab Sistem Cerdas</td>
+                                <td>Struktur Data</td>
+                                <td>Dyah Vitalocca, S.T., M.Pd. </td>
+                                <td>Muh. Akbar, S.Pd., M.Pd.</td>
+                            </tr>
+                            <tr>
+                                <td>14:50 - 17:50</td>
+                                <td>Lab Programing</td>
+                                <td>Keamanan komputer</td>
+                                <td>Dr. Eng. Ir. Abdul Wahid, ST., M.Kom., IPM. </td>
+                                <td>Fadhlirrahman Baso, S.Pd., M.Pd. </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Kamis</td>
+                                <td>10:05 - 12:40</td>
+                                <td>Lab Animasi</td>
+                                <td>Strategi Pembelajaran</td>
+                                <td>Dr. M. Rais., S.Pd., M.P., M.T. </td>
+                                <td>Dr. Ir. Yasdin, S.Pd., M.Pd., M.Sc. IPM. </td>
+                            </tr>
+                            <tr>
+                                <td>13:10 - 15:40</td>
+                                <td>Lab Programing</td>
+                                <td>Pemrograman Web</td>
+                                <td>Alifya Nfh, S.Pd., M.Pd. </td>
+                                <td>Muhammad Fadhil Supriadi, S.Pd., M.Pd. </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1">Jumat</td>
+                                <td>13:10 - 14:50</td>
+                                <td>Teknol 1C</td>
+                                <td>Inovasi Teknologi</td>
+                                <td>Dr. Ir. Yasdin, S.Pd., M.Pd., M.Sc. IPM. </td>
+                                <td>M. Miftach Fakhri, S.Kom., M.Pd</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
